@@ -1,0 +1,84 @@
+/* hostel comparison  */
+.hostel{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+    height: 200px;
+    display: flex;
+}
+.hostel-col{
+    flex-basis: 50%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+div{
+    display: block;
+    height: 500px;
+    width: 200px;
+}
+.row{
+    margin-top: 20%;
+    display: block;
+    justify-content: space-between;
+    row-gap: 20px;
+    width: 600px;
+}
+.layer1{
+    background: beige;
+    height: 15%;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+
+}
+.layer2{ 
+    background: beige;
+    height:15%;
+    width: 50%;
+    position: absolute;
+     text-align: center;
+    top: 0;
+    left: 0;
+
+} 
+.Vaccination-col img{
+    background-image: url(hostel_one.jpj);
+    width: 100%;
+    display: block;
+}
+.layer:hover{
+    background: blueviolet;
+    transition: 0.5s;
+
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+    transition: 0.5s;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 12px  34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
